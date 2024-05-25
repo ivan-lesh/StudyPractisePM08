@@ -1,0 +1,72 @@
+.burger-menu {
+    position: fixed;
+    z-index: 101;
+    min-height: 550px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px !important;
+    opacity: 0;
+    transition: 0.75s all;
+    transform: translateY(-100%);
+}
+
+.burger-button {
+    display: none;
+}
+
+.burger-menu.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.burger-menu-title {
+    max-width: 100%;
+    width: 100%;
+    font-size: 24px;
+}
+
+.burger-menu-close {
+    width: 20px;
+    height: 20px;
+}
+
+.burger-menu-profile {
+    max-width: 57px;
+    max-height: 57px;
+    border: orange 3px solid;
+}
+
+.burger-menu-control-name {
+    font-size: 18px;
+}
+
+.burger-menu-profile-name {
+    white-space: nowrap;
+}
+
+.burger-triangle {
+    min-width: 7px;
+    min-height: 14px;
+}
+
+.burger-line {
+    width: 33px;
+    height: 5px;
+    background-color: white;
+}
+
+.burger-close {
+    width: 17px;
+    height: 17px;
+    background-image: url('../img/close-dark.svg');
+}
+
+.account-exit {
+    width: 21px;
+    height: 27px;
+    background-image: url("../img/dark-exit.svg");
+}
+
+.program-title {
+    font-size: 28px;
+}

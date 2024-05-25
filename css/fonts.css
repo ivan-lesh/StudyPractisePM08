@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'h_regular';
+    src: url(../fonts/helvetica_regular.otf);
+}
+
+@font-face {
+    font-family: 'h_bold';
+    src: url(../fonts/helvetica_bold.otf);
+}
+
+@font-face {
+    font-family: 'h_light';
+    src: url(../fonts/helvetica_light.otf);
+}
+
+@font-face {
+    font-family: 'mogra';
+    src: url(../fonts/Mogra-Regular.ttf);
+}

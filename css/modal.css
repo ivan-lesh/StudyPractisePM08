@@ -1,0 +1,108 @@
+.modal {
+    position: fixed;
+    z-index: 100;
+    margin: 0 auto;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+    max-width: 734px;
+    width: 100%; 
+    background: #333339;
+    transform: translateX(185%);
+    border-radius: 25px;
+    opacity: 0;
+    transition: 0.75s all;
+    max-height: 730px !important;
+}
+
+.modal-day-bg {
+    background: #4E4E4E;
+}
+
+.modal-inp {
+    background: #333339;
+    max-width: 137px;
+    border: none;
+    text-align: center;
+}
+
+.modal-day-inp {
+    background: #4E4E4E;
+    max-width: 90px;
+    border: none;
+    border-radius: 25px;
+}
+
+.blure {
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+    background-color: #000;
+    z-index: 99;
+    display: none;
+    transition: 0.75s;
+    position: fixed;
+    top: 0;
+}
+
+.modal.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.modal-container {
+    padding: 25px;
+}
+
+.modal-input {
+    width: 100%;
+    max-width: 210px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.modal-input:focus {
+    outline: none;
+}
+
+.modal-time {
+    font-size: 16px;
+    color: black;
+    padding: 5px 15px;
+}
+
+.modal-day-right {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.day-new{
+    height: 237px;
+}
+
+.empty-line {
+    display: flex;
+}
+
+.modal-day-line img {
+    cursor: pointer;
+}
+
+.modal-img {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.modal-day-block {
+    min-width: 300px;
+}
+
+.addEx {
+    max-width: 17px;
+}
+
+.modal-day-empty {
+    min-height: 237px; 
+}

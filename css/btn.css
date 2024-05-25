@@ -1,0 +1,25 @@
+.btn {
+    max-width: 212px;
+    width: 100%;
+    border: none;
+}
+
+.btn span {
+    margin-top: 2px;
+}
+
+.btn.show .open {
+    display: none;
+}
+
+.btn.show .close {
+    display: block !important;
+}
+
+button {
+    border: none !important;
+}
+
+button:focus {
+    border: none !important;
+}

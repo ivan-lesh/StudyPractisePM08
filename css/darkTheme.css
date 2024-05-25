@@ -1,0 +1,135 @@
+.hero.dark {
+    .hero__workspace {
+        background: #53535E;
+    }
+
+    .hero__choose,
+    .hero__control-item:first-child:hover,
+    .hero__control-item:last-child:hover,
+    .hero__aboutCoach-center-text,
+    .review-text,
+    .pagin-coach,
+    .hero__clients-content,
+    .hero__aboutClient-info-item,
+    .hero__aboutClient-info-monitoring {
+        background-color: #333339 !important;
+    }
+
+    .hero__aboutClient-info-item,
+    .hero__aboutClient-info-monitoring {
+        color: white;
+    }
+
+    .hero__shedule-table td {
+        background: #333339;
+        color: white;
+    }
+
+    .pagin-button-coach {
+        background-image: url("../img/pagin-light.svg")
+    }
+
+    .hero__aboutCoach-status,
+    .hero__aboutCoach-name {
+        color: white !important;
+    }
+
+    .table-time {
+        background-color: #606062 !important;
+    }
+
+    .hero__shedule-control-edit,
+    .hero__shedule-control-cancel,
+    .hero__shedule-control-choose,
+    .hero__shedule-control-choosen {
+        background-color: #606062 !important;
+    }
+
+    .hero__shedule-control span,
+    .hero__aboutClient-name {
+        color: white !important;
+    }
+
+    .toggle-theme {
+        width: 34px;
+        height: 34px;
+        background-image: url("../img/sun.svg");
+    }
+
+    .hero__control {
+        background-color: #333339;
+        color: white !important;
+    }
+
+    .hero__control-bottom-img {
+        background-image: url("../img/dark-logo.svg");
+    }
+
+    .hero__aboutCoach,
+    .hero__control-item-name,
+    .hero__control-profile-name,
+    .title {
+        color: white !important;
+    }
+
+    .weight-circle {
+        background-image: url("../img/light-circle.svg");
+    }
+
+    .hero__control-item:last-child:hover {
+        background: white;
+    }
+
+    .bg-light-gr {
+        color: black !important;
+    }
+
+    .emptyMark {
+        background-image: url("../img/dark-empty-mark.svg");
+    }
+    
+    .issetMark {
+        background-image: url("../img/dark-mark.svg");
+    }
+
+    .pagin-button-client {
+        background-image: url("../img/pagin-light.svg");
+    }
+
+    .search-min {
+        background-image: url("../img/light-loop.svg");
+    }
+
+    .burger-close {
+        background-image: url("../img/close-light.svg");
+    }
+
+    .burger-menu,
+    .hero__shedule-mobile-day,
+    .hero__shedule-mobile-record-time {
+        background: #333339;
+    }
+
+    .burger-menu-title,
+    .burger-menu-profile-name,
+    .burger-menu-control-name,
+    .text-mogra {
+        color: white;
+    }
+
+    .account-exit {
+        background-image: url("../img/exit.svg");
+    }
+
+    .hero__control-item-img-graphic {
+        background-image: url("../img/traint-graphic-dark.svg");
+    }
+    
+    .hero__control-item-img-prog {
+        background-image: url("../img/train-prog-dark.svg");
+    }
+    
+    .hero__control-item-img-clients {
+        background-image: url("../img/client-dark.svg");
+    }
+}

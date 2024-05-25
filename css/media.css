@@ -1,0 +1,300 @@
+@media screen and (max-width: 1900px) {
+    .hero__aboutCoach-center {
+        max-width: 1000px;
+    }
+    .hero__aboutCoach-center {
+        justify-content: center;
+    }
+    .hero__aboutCoach-info-items {
+        flex-direction: column !important;
+    }
+    .hero__aboutCoach-info-center,
+    .hero__aboutCoach-info-items
+    {
+        gap: 1rem !important; 
+    }
+    .title {
+        margin-bottom: 2rem !important;
+    }   
+    .hero__aboutCoach-start {
+        justify-content: center !important;
+    }
+    .hero__aboutClient-right .title {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1830px) {
+    .hero__aboutCoach-start {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .hero__aboutClient-start {
+        gap: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .hero__control {
+        padding-left: 60px !important;
+        min-width: 415px !important;
+    }
+
+    .hero__container {
+        padding: 60px !important;
+    }
+
+    .header {
+        padding: 0px 60px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero__aboutClient-img {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hero__shedule-table {
+        display: none;
+    }
+    .hero__shedule-control-top {
+        justify-content: start !important;
+    }
+    .hero__shedule-mobile {
+        display: flex !important;
+    }
+    .hero__shedule-control-top-left,
+    .hero__shedule-control-bottom {
+        display: none !important;
+    }
+    .hero__shedule-control-add {
+        font-size: 15px !important;
+    }
+    .modal-input {
+        font-size: 14px !important;
+    }
+    .hero__clients-content-filter {
+        gap: 11px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .burger-menu {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__aboutCoach-center {
+        justify-content: start;
+    }
+    .checkMark {
+        width: 26px;
+        height: 26px;
+        top: 140px !important;
+    }
+    .hero__aboutCoach-info-rating {
+        margin-top: 14px;
+    }
+    .hero__aboutCoach-info-rating img {
+        max-width: 20px;
+    }
+    .hero__aboutCoach-info-items {
+        gap: 0 !important;
+    }
+    .hero__aboutCoach-info-center {
+        margin-top: 20px;
+    }
+    .hero__aboutCoach-info-start {
+        gap: 5px !important;
+    }
+    .hero__control {
+        display: none !important;
+    }
+
+    .hero__aboutCoach-img {
+        width: 167px !important;
+        height: 167px !important;
+    }
+    
+    .hero__aboutCoach-center-item p {
+        font-size: 12px !important;
+    }    
+    .header {
+        padding: 0 20px !important;
+    }
+
+    .header-nav-left,
+    .hero__aboutCoach-info-center {
+        gap: 0.5rem !important; 
+    }
+
+    .hero__aboutCoach-info-end {
+        margin-top: 0.5rem;
+    }
+
+    .fs-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero__workspace {
+        min-height: 100vh !important;
+    }
+
+    .hero__choose {
+        font-size: 15px;
+    }
+
+    .hero__container {
+        padding: 20px !important;
+    }
+
+    .burger-button {
+        display: flex !important;
+    }
+    
+    .admin-panel {
+        font-size: 20px !important;
+    }
+
+    .profile-mini,
+    .header-exit {
+        display: none;
+    } 
+
+    .title {
+        font-size: 20px !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .hero__aboutCoach-start {
+        gap: 1rem !important;
+    }
+
+    .hero__aboutCoach-info-name,
+    .profile span {
+        font-size: 15px;
+    }
+
+    .hero__aboutCoach-status,
+    .hero__aboutCoach-info-item span,
+    .hero__aboutCoach-center-text span,
+    .review-text {
+        font-size: 12px !important;
+    }
+
+    .hero__aboutCoach-center-item {
+        width: 100%;
+        min-width: 1px !important; 
+    }
+
+    .hero__aboutCoach-end-review-img {
+        max-width: 32px !important;
+    }
+
+    .pagination-pages span {
+        font-size: 12px !important;
+    }
+
+    .modal-input-block:last-child {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .modal-input-block-save {
+        align-self: end !important;
+    }
+
+    .dropdown-item, 
+    .btn-main-text {
+        font-size: 14px !important;
+    }
+
+    .modal-input-block:last-child a {
+        align-self: end !important;
+    }
+    .hero__programs h1 {
+        font-size: 20px;
+    }
+    .hero__programs-add {
+        font-size: 14px !important;
+    } 
+    .hero__programs-content-item {
+        width: 100% !important;
+    }
+    .hero__programs-content {
+        padding: 23px !important;
+        margin-top: 20px !important;
+    }
+    .program-title {
+        font-size: 20px !important;
+    }
+    .hero__clients-items {
+        gap: 10px !important;
+    }
+    .hero__clients-item {
+        max-width: 167px !important;
+        padding: 10px !important;
+        gap: 10px !important;
+    }
+    .hero__clients-item-text .text-16 {
+        font-size: 14px !important;
+    }
+    .hero__clients-item-text {
+        line-height: 1 !important;
+    }
+    .hero__aboutClient-img {
+        width: 167px !important;
+        height: 167px !important;
+    }
+
+    .hero__aboutClient-info-monitoring,
+    .hero__aboutClient-info-title {
+        font-size: 17px !important;
+    }
+
+    .hero__aboutClient-info-item p,
+    .hero__aboutClient-info-text,
+    .hero__aboutClient-status {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .burger-menu-title {
+        font-size: 20px !important;
+    }
+    .burger-menu-profile {
+        width: 57px;
+        height: 57px;
+    }
+
+    .burger-menu-menu {
+        gap: 10px !important;
+    }
+
+    .burger-menu-controls {
+        gap: 1rem !important; 
+    }
+
+    .burger-menu-control-name,
+    .burger-menu-profile-name,
+    .burger-menu-profile-status {
+        font-size: 15px !important;
+    }
+
+    .hero__programs-content-item .text-18 {
+        font-size: 15px;
+    }
+
+    .hero__programs-content-item {
+        padding: 20px !important;
+    }
+}

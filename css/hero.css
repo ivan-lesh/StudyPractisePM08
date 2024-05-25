@@ -1,0 +1,228 @@
+.hero__container {
+    width: 100% !important;
+    min-height: 50%;
+    padding: 66px 100px;
+}
+
+.hero {
+    display: flex;
+    height: 100%;
+}
+
+.hero__workspace {
+    width: 100%;
+    background: #ECECEC;
+}
+
+.hero__control {
+    padding: 20px 0px 30px 100px;
+    min-width: 515px;
+    min-height: 100vh;
+}
+
+.hero__control-profile {
+    border: 3px solid #FFBB37;
+    width: 73px;
+    height: 73px;
+}
+
+.hero__control-item-img {
+    width: 45px;
+    height: 45px;
+}
+
+.hero__control-bottom-img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero__control-item {
+    padding: 10px 25px;
+    border-radius: 25px 0 0 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero__control-item:first-child:hover {
+    background: white;
+    color: black;
+}
+
+.hero__control-item:last-child:hover {
+    background: white;
+}
+
+.hero__control-item:hover {
+    background: #FFBB37;
+    color: white;
+}
+
+.hero__aboutCoach-img,
+.hero__aboutClient-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.hero__control-item-img-graphic,
+.hero__control-item-img-prog,
+.hero__control-item-img-clients {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.hero__control-item-img-graphic {
+    background-image: url("../img/traint-graphic.svg");
+    width: 45px;
+    height: 38px;
+}
+
+.hero__control-item-img-prog {
+    background-image: url("../img/train-prog.svg");
+    width: 36px;
+    height: 23px;
+}
+
+.hero__control-item-img-clients {
+    background-image: url("../img/clients.svg");
+    width: 37px;
+    height: 28px;
+}
+
+.hero__aboutCoach-info {
+    height: 100% !important;
+}
+
+.hero__aboutCoach-im {
+    max-width: 25px;
+}
+
+.hero__aboutCoach-center-text {
+   border-radius: 25px;
+   padding: 20px; 
+   width: 100%;
+}
+
+.hero__aboutCoach-center-item {
+    max-width: 540px !important;
+    width: 100%;
+    min-width: 540px; 
+}
+
+.hero__aboutClient-info-item {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 100%;
+}
+
+.hero__aboutClient-info-monitoring {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.hero__aboutCoach-avatar {
+    position: relative;
+}
+
+.hero__aboutCoach-end-review-img {
+    border-radius: 150px;
+    max-width: 54px;
+    border: 3px solid #FFBB37;
+}
+
+.hero__shedule-control-choosen {
+    display: none;
+}
+
+.hero__shedule-control-choose {
+    display: flex;
+    border: none;
+}
+
+.hero__shedule-control-edit,
+.hero__shedule-control-cancel,
+.hero__shedule-control-choose,
+.hero__shedule-control-choosen {
+    display: flex;
+}
+
+.hero__shedule-control-top {
+    justify-content: space-between;
+ }
+
+.hero__programs-content {
+    border-radius: 25px;
+    width: 100%;
+    padding: 53px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/man.jpeg")
+}
+
+.hero__programs-content-item {
+    border-radius: 25px;
+    padding: 25px 30px;
+    background: rgba(124, 124, 124, 0.774);
+    transition: all 1s;
+}
+
+.client-mini {
+    max-width: 57px;
+    max-height: 57px;
+}
+
+.hero__clients-item {
+    max-width: 256px;
+}
+
+.client-mini {
+    border: 3px solid #FFBB37;
+    border-radius: 50px; 
+}
+
+.detailed {
+    border-bottom: 1px solid #ABABAB;
+    color: #ABABAB;
+}
+
+.hero__clients-item-text {
+    line-height: 1.2;
+}
+
+.hero__shedule-mobile {
+    display: none;
+}
+
+.hero__shedule-mobile-day {
+   padding: 3px 12px;
+   background: #606062; 
+   border-radius: 50px;
+   font-size: 15px;
+}
+
+.hero__shedule-mobile-records {
+    max-width: 400px;
+    width: 100% !important;
+}
+
+.hero__shedule-mobile-record-time {
+    background: #606062;
+    border-radius: 20px 0 0 20px;
+}
+
+.hero__shedule-mobile-record-client {
+    white-space: nowrap;
+    width: 100%;
+}
+
+.hero__shedule-mobile-record-control {
+    border-radius: 0 20px 20px 0;
+}
+
+.hero__aboutClient-info-graphic {
+    width: 100%;
+}
